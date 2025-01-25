@@ -1,0 +1,41 @@
+Pdf version also available
+1.Install python latest version.
+
+ubuntu
+    -> sudo apt install python3 -y && sudo apt install python3-pip -y && sudo apt install python3-venv -y
+
+windows
+    1. Download Python Installer
+        Go to the official Python Downloads page.Click on the Download Python button. This will download the latest version of Python for Windows.
+    2. Run the Installer
+        Once the installer is downloaded, run the installer.
+
+    Important: Check the box that says "Add Python to PATH" before clicking "Install Now." This will make Python and pip accessible from the command prompt.
+    Click Install Now and the installation will proceed.
+
+    3. Verify Python Installation
+
+    After the installation is complete, you can verify Python and pip installation:
+        1.Open Command Prompt (press Win + R, type cmd, and press Enter).
+        2.Type the following command to check Python version:
+        -> python --version
+        Or, if you have multiple versions installed, you might need to use:
+        -> python3 --version
+
+
+2.Open command prompt used cd command to change the project directory
+    -> cd {projct_directory}
+
+3 Create virtual environment
+
+Ubuntu:type the below command to create virtual environment
+    -> source myenv/bin/activate
+
+Windows:type the below command to create virtual environment
+    -> myenv\Scripts\activate
+
+4.Install required libraries for executing python application.
+    -> pip install -r requirment.txt
+
+5.Run the application by using below command.
+    -> python app.py
